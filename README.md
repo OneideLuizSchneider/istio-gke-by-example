@@ -41,7 +41,7 @@ Now go to your terminal and create all the deployments, services, and Istio rule
  \
 On the browser you can see something like this:
 <p align="center">  
-  <img src="https://raw.githubusercontent.com/OneideLuizSchneider/istio-gke-by-example/master/assets/kiali.png?raw=true" width="800">
+  <img src="https://raw.githubusercontent.com/OneideLuizSchneider/istio-gke-by-example/master/assets/kiali.png?raw=true" width="900">
 </p>
 
 
