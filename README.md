@@ -23,7 +23,7 @@ Steps: \
 ``export PATH=$PWD/bin:$PATH`` \
 ``istioctl manifest apply --set profile=demo`` \
 ``kubectl label namespace default istio-injection=enabled`` \
-*Now its possible to Open kiali, where you can see the traffic, etc. \
+*Now it's possible to open kiali on the webbrowser, where you can see the traffic, etc. \
 ``istioctl dashboard kiali`` \
  \
  \
