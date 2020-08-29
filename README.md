@@ -7,7 +7,7 @@ Here we have 3 versions of the same API, written in Java with Spring Boot, and w
 The traffic will be splitting by 50%, 30%, and 20%.  \
 So, lets see the code.
  \
- \ 
+ \
 First \
 Create a Kubernetes cluster, for this example I'll use GKE (Google Kubernetes Engine).
 Steps: \
@@ -45,6 +45,6 @@ On the browser you can see something like this: \
 <p align="center">  
   <img src="https://github.com/OneideLuizSchneider/istio-gke-by-example/assets/kiali.png?raw=true" width="800">
 </p>
- \
- \
+
+
 Enjoy it :D
