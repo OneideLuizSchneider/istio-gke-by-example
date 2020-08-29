@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: books-v2
+  labels:
+    app: books
+    version: v2
+spec:
+  selector:
+    matchLabels:
+      app: books
+      version: v2
+  replicas: 1
+  template:    
+    metadata:
+      labels:
+        app: books
+        version: v2
+    spec:
+      containers:
+      - name: books
+        image: gcr.io/gke-01-287413/books-v2@sha256:172a61aaa940028784573a929938e58db6f709fc4da9620b5856ac09a7e5d18e
+        imagePullPolicy: Always
+      restartPolicy: Always
